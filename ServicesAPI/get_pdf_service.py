@@ -56,8 +56,8 @@ class Download_Service:
         """
         url = f'{API_GUZMAN_BASE_URL}api/token'
         params = {
-            'username': 'clinizad',
-            'password': '|4.CXkUj,`rtwJ-tBEW*9Xm9tM6gg'
+            'username': '',
+            'password': ''
         }
         response = requests.post(url, params=params)
         if response.status_code == 200:
