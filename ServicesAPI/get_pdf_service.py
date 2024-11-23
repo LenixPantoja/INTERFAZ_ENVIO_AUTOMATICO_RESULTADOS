@@ -4,7 +4,7 @@ import time
 import os
 import concurrent.futures
 
-API_GUZMAN_BASE_URL = 'http://192.168.10.224:8010/'
+API_GUZMAN_BASE_URL = ''
 
 class Download_Service:
     """
